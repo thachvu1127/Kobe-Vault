@@ -1,5 +1,4 @@
 import React from "react";
-import kobeLogo from "../../assets/kobe-logo.png";
 
 const Logo = () => {
   return (
