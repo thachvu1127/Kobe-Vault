@@ -20,9 +20,9 @@ const NavBar = ({ activeShoe, onShoeClick }) => {
             shoes={shoes}
           />
         </div>
-        <div className="hidden lg:flex xl:hidden justify-center pb-4">
+        {/* <div className="hidden lg:flex xl:hidden justify-center pb-4">
           <MediumTimeline activeShoe={activeShoe} onShoeClick={onShoeClick} />
-        </div>
+        </div> */}
       </div>
     </nav>
   );

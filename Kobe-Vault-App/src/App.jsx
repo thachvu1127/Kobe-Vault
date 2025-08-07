@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BackgroundImage from "./components/common/BackgroundImage";
+import HeroSection from "./components/hero/HeroSection";
 import NavBar from "./components/navigation/NavBar";
 function App() {
   const [activeShoe, setActiveShoe] = useState(null);
@@ -7,9 +7,9 @@ function App() {
     setActiveShoe(index);
   };
   return (
-    <div>
-      {/* <BackgroundImage></BackgroundImage> */}
+    <div className="min-h-screen">
       <NavBar activeShoe={activeShoe} onShoeClick={handleShoeClick}></NavBar>
+      <HeroSection></HeroSection>
     </div>
   );
 }
