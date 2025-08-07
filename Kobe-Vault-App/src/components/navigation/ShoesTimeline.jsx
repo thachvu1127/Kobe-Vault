@@ -4,7 +4,7 @@ import TimelineButton from "./TimelineButton";
 
 const ShoesTimeline = ({ activeShoe, onShoeClick }) => {
   return (
-    <div className="hidden xl:flex items-center space-x-2 rounded-xl px-8 py-4 blackdrop-blur-md border border-white/10 text-black">
+    <div className="hidden xl:flex items-center space-x-2 rounded-xl px-8 py-4 backdrop-blur-md border border-white/30">
       {shoes.map((shoe, index) => (
         <TimelineButton
           shoe={shoe}
